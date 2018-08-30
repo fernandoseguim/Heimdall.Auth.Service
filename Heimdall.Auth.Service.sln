@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heimdall.Auth.Service", "Heimdall.Auth.Service\Heimdall.Auth.Service.csproj", "{56989F24-6562-4C7C-AB0A-6D0474F66F6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4019FB0C-5BB2-4AF6-8B55-A1DCA626627F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heimdall.Auth.Service.Infra", "Heimdall.Auth.Service.Infra\Heimdall.Auth.Service.Infra.csproj", "{DBEC9DD3-E90B-4EA2-AFF4-E0821FE0FAF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heimdall.Auth.Service.Domain", "Heimdall.Auth.Service.Domain\Heimdall.Auth.Service.Domain.csproj", "{08CF768C-D80B-46DA-8EDB-E841E79C857D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heimdall.Auth.Service.SampleApi", "Heimdall.Auth.Service.SampleApi\Heimdall.Auth.Service.SampleApi.csproj", "{4565FC1C-DBFE-4C26-9F39-460E693648E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heimdall.Auth.Service.SampleClient", "Heimdall.Auth.Service.SampleClient\Heimdall.Auth.Service.SampleClient.csproj", "{EF94EA6E-6353-4496-B156-1F2589124B8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56989F24-6562-4C7C-AB0A-6D0474F66F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56989F24-6562-4C7C-AB0A-6D0474F66F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56989F24-6562-4C7C-AB0A-6D0474F66F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56989F24-6562-4C7C-AB0A-6D0474F66F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBEC9DD3-E90B-4EA2-AFF4-E0821FE0FAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEC9DD3-E90B-4EA2-AFF4-E0821FE0FAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEC9DD3-E90B-4EA2-AFF4-E0821FE0FAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEC9DD3-E90B-4EA2-AFF4-E0821FE0FAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CF768C-D80B-46DA-8EDB-E841E79C857D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CF768C-D80B-46DA-8EDB-E841E79C857D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CF768C-D80B-46DA-8EDB-E841E79C857D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CF768C-D80B-46DA-8EDB-E841E79C857D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4565FC1C-DBFE-4C26-9F39-460E693648E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4565FC1C-DBFE-4C26-9F39-460E693648E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4565FC1C-DBFE-4C26-9F39-460E693648E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4565FC1C-DBFE-4C26-9F39-460E693648E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF94EA6E-6353-4496-B156-1F2589124B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF94EA6E-6353-4496-B156-1F2589124B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF94EA6E-6353-4496-B156-1F2589124B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF94EA6E-6353-4496-B156-1F2589124B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56989F24-6562-4C7C-AB0A-6D0474F66F6F} = {4019FB0C-5BB2-4AF6-8B55-A1DCA626627F}
+		{DBEC9DD3-E90B-4EA2-AFF4-E0821FE0FAF3} = {4019FB0C-5BB2-4AF6-8B55-A1DCA626627F}
+		{08CF768C-D80B-46DA-8EDB-E841E79C857D} = {4019FB0C-5BB2-4AF6-8B55-A1DCA626627F}
+		{4565FC1C-DBFE-4C26-9F39-460E693648E7} = {4019FB0C-5BB2-4AF6-8B55-A1DCA626627F}
+		{EF94EA6E-6353-4496-B156-1F2589124B8A} = {4019FB0C-5BB2-4AF6-8B55-A1DCA626627F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE761174-24D6-437F-BE30-09B4D6AE2009}
+	EndGlobalSection
+EndGlobal

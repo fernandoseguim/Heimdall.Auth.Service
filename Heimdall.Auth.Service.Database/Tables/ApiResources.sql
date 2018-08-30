@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[ApiResources]
+(
+	[Id] INT NOT NULL IDENTITY PRIMARY KEY,
+	[ApiResourceName] VARCHAR(100) NOT NULL UNIQUE, 
+    [ApiResourceData] VARCHAR(MAX) NOT NULL 
+)
+
+GO
